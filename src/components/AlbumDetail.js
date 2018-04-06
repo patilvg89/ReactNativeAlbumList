@@ -30,7 +30,7 @@ const AlbumDetail = (props) => {
             </CardSection>
 
             <CardSection>
-                <Button onPress={() => Linking.openURL(props.data.url)}/>
+                <Button onPress={() => Linking.openURL(props.data.url)}>Buy Now</Button>
             </CardSection>
         </Card>
     )
